@@ -2,7 +2,7 @@ import { Box, Heading, Text, Image } from '@chakra-ui/react';
 
 const Home = () => {
   return (
-    <Box bg="cream" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4}>
+    <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4}>
       <Box mb={2} width="100%" maxWidth="400px" display="flex" justifyContent="center" alignItems="center">
         <Image 
           src="/hockey-puck.png" 
@@ -35,10 +35,10 @@ const Home = () => {
         />
       </Box>
       <Box textAlign="center">
-        <Heading as="h2" size="2xl" mb={4} color="#FF0000" fontFamily="'Righteous', cursive">
+        <Heading as="h2" size="2xl" mb={4} color="#F9FAFB" fontFamily="'Righteous', cursive">
           Charlie Harvey
         </Heading>
-        <Text fontSize="xl" color="#FF0000" fontFamily="'Righteous', cursive">
+        <Text fontSize="xl" color="#F9FAFB" fontFamily="'Righteous', cursive">
           Check out player bio
         </Text>
       </Box>

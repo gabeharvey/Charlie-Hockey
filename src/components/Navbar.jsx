@@ -55,7 +55,7 @@ const Navbar = ({ scrollToSection, refs }) => {
           Charlie Harvey
         </Heading>
         <Spacer />
-        <Flex display={['none', 'none', 'flex']} fontFamily="'Righteous', cursive" fontSize="lg" color="#FF0000">
+        <Flex display={['none', 'none', 'flex']} fontFamily="'Righteous', cursive" fontSize="lg" color="#F9FAFB">
           <Link mx={4} onClick={() => scrollToSection(refs.aboutRef)}>Player Bio</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.projectsRef)}>Track and Field</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.myExperienceRef)}>Cross Country</Link>
@@ -78,7 +78,7 @@ const Navbar = ({ scrollToSection, refs }) => {
                 whileHover={{ scale: 1.1 }}
                 {...bounceAnimation}
               >
-                <CgMenuGridO color="#FF0000" />
+                <CgMenuGridO color="#F9FAFB" />
               </motion.div>
             )
           }
@@ -86,7 +86,7 @@ const Navbar = ({ scrollToSection, refs }) => {
           onClick={isOpen ? onClose : onOpen}
           variant="unstyled"
           fontSize="30px"
-          color="#FF0000"
+          color="#F9FAFB"
           _hover={{ bg: 'none' }}
           _focus={{ boxShadow: 'none' }}
           mt="20px"
@@ -103,9 +103,9 @@ const Navbar = ({ scrollToSection, refs }) => {
             right="0"
             width="70%"
             height="100vh"
-            bg="#89CFF0"
+            bg="#1E3A8A"
             zIndex="overlay"
-            color="#FF0000"
+            color="#F9FAFB"
             borderTopLeftRadius="30px"
             borderBottomLeftRadius="30px"
             boxShadow="0 0 15px rgba(0, 0, 0, 0.8)"
@@ -114,7 +114,7 @@ const Navbar = ({ scrollToSection, refs }) => {
             m={0}
             transform="translateX(0)"
           >
-            <Flex alignItems="center" justifyContent="space-between" mb="1rem" p="20px" backgroundColor="#89CFF0">
+            <Flex alignItems="center" justifyContent="space-between" mb="1rem" p="20px" backgroundColor="#1E3A8A">
               <Text fontSize="2xl" fontWeight="bold" fontFamily="'Righteous', cursive" mt="15px">
                 Menu
               </Text>
@@ -124,12 +124,12 @@ const Navbar = ({ scrollToSection, refs }) => {
                 onClick={onClose}
                 variant="unstyled"
                 fontSize="24px"
-                color="#FF0000"
+                color="#F9FAFB"
                 padding="10px"
                 mb="15px"
               />
             </Flex>
-            <Divider borderColor="#FF0000" />
+            <Divider borderColor="#F9FAFB" />
             <Flex direction="column" alignItems="flex-start" h="80%" ml="20px" mt="20px">
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.aboutRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Player Bio
