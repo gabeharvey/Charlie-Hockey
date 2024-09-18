@@ -3,9 +3,10 @@ import { useRef } from 'react';
 import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
+import PlayerBio from './components/PlayerBio';
 
 function App() {
-  const aboutRef = useRef(null);
+  const playerBioRef = useRef(null);
   const projectsRef = useRef(null); 
   const myExperienceRef = useRef(null); 
   const myEducationRef = useRef(null); 
@@ -24,8 +25,11 @@ function App() {
     <div>
       <Navbar 
         scrollToSection={scrollToSection} 
-        refs={{ aboutRef, projectsRef, myExperienceRef, myEducationRef, contactRef, resumeRef }} 
+        refs={{ playerBioRef, projectsRef, myExperienceRef, myEducationRef, contactRef, resumeRef }} 
       />
+      <div ref={playerBioRef}>
+        <PlayerBio />
+      </div>
       <div ref={projectsRef}>
         <Home />
       </div>
