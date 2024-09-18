@@ -7,7 +7,7 @@ import PlayerBio from './components/PlayerBio';
 
 function App() {
   const playerBioRef = useRef(null);
-  const projectsRef = useRef(null); 
+  const homeRef = useRef(null); 
   const myExperienceRef = useRef(null); 
   const myEducationRef = useRef(null); 
   const resumeRef = useRef(null); 
@@ -25,12 +25,12 @@ function App() {
     <div>
       <Navbar 
         scrollToSection={scrollToSection} 
-        refs={{ playerBioRef, projectsRef, myExperienceRef, myEducationRef, contactRef, resumeRef }} 
+        refs={{ playerBioRef, homeRef, myExperienceRef, myEducationRef, contactRef, resumeRef }} 
       />
       <div ref={playerBioRef}>
         <PlayerBio />
       </div>
-      <div ref={projectsRef}>
+      <div ref={homeRef}>
         <Home />
       </div>
       <Footer />

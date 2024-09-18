@@ -55,7 +55,7 @@ const Home = () => {
 
   return (
     <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4}>
-      <Box mb={8} position="relative" overflow="hidden" width="100%" maxWidth="600px" display="flex" justifyContent="center" alignItems="center">
+      <Box mb={1} position="relative" overflow="hidden" width="100%" maxWidth="600px" display="flex" justifyContent="center" alignItems="center">
         <Image 
           src="/charlie-hockey-2.png" 
           alt="Player Image"
