@@ -8,10 +8,10 @@ const Footer = () => {
         <Stack spacing={4} textAlign="center">
           <Stack direction="row" spacing={6} justify="center">
             <Link href="https://www.facebook.com/" isExternal aria-label="Facebook">
-              <FaFacebook size={24} />
+              <FaFacebook size={26} />
             </Link>
             <Link href="https://www.instagram.com/" isExternal aria-label="Instagram">
-              <FaInstagram size={24} />
+              <FaInstagram size={26} />
             </Link>
           </Stack>
           <Text>&copy; {new Date().getFullYear()} Charlie Harvey. All rights reserved.</Text>
