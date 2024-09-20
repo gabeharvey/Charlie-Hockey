@@ -57,9 +57,9 @@ const Navbar = ({ scrollToSection, refs }) => {
         <Spacer />
         <Flex display={['none', 'none', 'flex']} fontFamily="'Righteous', cursive" fontSize="lg" color="#F9FAFB">
           <Link mx={4} onClick={() => scrollToSection(refs.aboutRef)}>Player Bio</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.projectsRef)}>Track and Field</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.myExperienceRef)}>Cross Country</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.myEducationRef)}>Hockey</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.projectsRef)}>Hockey Film</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.myExperienceRef)}>Cross Country and Track & Field</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.myEducationRef)}>Academics</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.contactRef)}>Faith</Link>
         </Flex>
 
@@ -135,13 +135,13 @@ const Navbar = ({ scrollToSection, refs }) => {
                 Player Bio
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.projectsRef); onClose(); }} fontFamily="'Righteous', cursive">
-                Track and Field
+                Hockey Film
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.myExperienceRef); onClose(); }} fontFamily="'Righteous', cursive">
-                Cross Country
+                Cross Country and Track & Field
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.myEducationRef); onClose(); }} fontFamily="'Righteous', cursive">
-                Hockey
+                Academics
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.contactRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Faith

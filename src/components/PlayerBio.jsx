@@ -11,6 +11,27 @@ const PlayerBio = () => {
 
   return (
     <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4}>
+              <Image 
+          src="/charlie-hockey-2.png" 
+          alt="Player Image"
+          borderRadius="md"
+          objectFit="cover" 
+          width="50%" 
+          height="auto"
+          style={{
+            display: 'block',
+            maxWidth: '100%',
+            height: 'auto',
+            position: 'relative',
+            zIndex: '0',
+            transform: 'scale(0.8)', 
+            maskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 80%)',
+            maskSize: '100% 100%',
+            maskRepeat: 'no-repeat',
+            maskPosition: 'center',
+            WebkitMaskImage: 'radial-gradient(circle, rgba(0, 0, 0, 1) 20%, rgba(0, 0, 0, 0.5) 50%, rgba(0, 0, 0, 0) 80%)'
+          }}
+        />
       <Container maxW="container.lg" mt="50px">
         <VStack spacing={8} textAlign="center" py={1}>
           <animated.div style={headingAnimation}>
@@ -70,7 +91,7 @@ const PlayerBio = () => {
               color="#1E3A8A"
               mb={4}
             >
-              <strong>Position:</strong> Forward
+              <strong>Position:</strong> Defenseman
             </Text>
             <Text
               fontFamily="'Righteous', cursive"
@@ -78,22 +99,14 @@ const PlayerBio = () => {
               color="#1E3A8A"
               mb={4}
             >
-              <strong>Team:</strong> AAA Nashville Predators
-            </Text>
-            <Text
-              fontFamily="'Righteous', cursive"
-              fontSize="20px"
-              color="#1E3A8A"
-              mb={4}
-            >
-              <strong>Achievements:</strong> 2:16 800 Meters
+              <strong>Team:</strong> AAA Nashville Jr. Predators
             </Text>
             <Text
               fontFamily="'Righteous', cursive"
               fontSize="20px"
               color="#1E3A8A"
             >
-              Charlie Harvey is known for his fast skating and incredible goal-scoring ability. 4 years experience AAA Hockey Nashville Predators. 2 years experience Birmingham Bulls.
+              Charlie is known for being a fast and strong skater who is fierce as a defenseman. He provides quick transitions through the neutral zone and creates high quality goal scoring opportunities.
             </Text>
           </Box>
         </VStack>
