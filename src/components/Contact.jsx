@@ -14,7 +14,7 @@ const Contact = () => {
           bg="#F9FAFB"
           borderRadius="35px"
           p={8}
-          border="8px solid #1E3A8A"
+        //   border="8px solid #1E3A8A"
           boxShadow="0px 6px 12px rgba(0, 0, 0, 0.15)"
           background="linear-gradient(white, white) padding-box, linear-gradient(45deg, #1E3A8A, #F9A8D4, #34D399, #E11D48) border-box"
         >
