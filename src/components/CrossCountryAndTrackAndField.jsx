@@ -15,12 +15,12 @@ const CrossCountryAndTrackAndField = () => {
   };
 
   return (
-    <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4}>
+    <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4} mt="50px">
       {/* Divider Image */}
       <ChakraImage 
-        src="/track-divider.png" 
+        src="/track.png" 
         alt="Track Divider" 
-        width="20%" 
+        width="50%" 
         mt="10px" 
         mb="30px" 
         objectFit="contain"
@@ -59,12 +59,12 @@ const CrossCountryAndTrackAndField = () => {
                   height: '100%',
                   borderRadius: '35px', 
                   boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.15)', 
-                  border: '8px solid #34D399', // Green border
-                  background: 'linear-gradient(white, white) padding-box, linear-gradient(45deg, #34D399, #10B981) border-box', // Green Gradient
+                  border: '8px solid #34D399', 
+                  background: 'linear-gradient(white, white) padding-box, linear-gradient(45deg, #34D399, #10B981) border-box', 
                 }}
               >
                 <Image
-                  src={`/track-image.png`}
+                  src={`/track-1.png`}
                   alt={`Cross Country & Track Front`}
                   borderRadius="25px" 
                   objectFit="cover"
@@ -91,7 +91,7 @@ const CrossCountryAndTrackAndField = () => {
                   color: '#333333',
                   padding: '1rem',
                   backgroundColor: '#F9FAFB',
-                  border: '8px solid #34D399', // Green border
+                  border: '8px solid #34D399', 
                 }}
               >
                 <Text fontFamily="'Righteous', cursive" textAlign="center" mb={2} fontWeight="bold">

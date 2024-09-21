@@ -66,7 +66,7 @@ const Faith = () => {
                 }}
               >
                 <Image
-                  src={`/faith-image.png`}
+                  src={`/pop-image.png`}
                   alt={`Faith Card front`}
                   borderRadius="25px" 
                   objectFit="cover"

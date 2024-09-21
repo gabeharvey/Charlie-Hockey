@@ -58,7 +58,8 @@ const Navbar = ({ scrollToSection, refs }) => {
         <Flex display={['none', 'none', 'flex']} fontFamily="'Righteous', cursive" fontSize="lg" color="#F9FAFB">
           <Link mx={4} onClick={() => scrollToSection(refs.playerBioRef)}>Player Bio</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.hockeyFilmRef)}>Hockey Film</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.homeRef)}>Cross Country and Track & Field</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.homeRef)}>Player Cards</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.crossCountryAndTrackAndFieldRef)}>Cross Country and Track & Field</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.academicsRef)}>Academics</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.faithRef)}>Faith</Link>
         </Flex>
@@ -138,6 +139,9 @@ const Navbar = ({ scrollToSection, refs }) => {
                 Hockey Film
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.homeRef); onClose(); }} fontFamily="'Righteous', cursive">
+                Player Cards
+              </Link>
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.crossCountryAndTrackAndFieldRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Cross Country and Track & Field
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.academicsRef); onClose(); }} fontFamily="'Righteous', cursive">
