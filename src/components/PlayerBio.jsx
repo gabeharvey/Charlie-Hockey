@@ -16,7 +16,7 @@ const PlayerBio = () => {
           alt="Player Image"
           borderRadius="md"
           objectFit="cover" 
-          width="50%" 
+          width="70%" 
           height="auto"
           style={{
             display: 'block',
