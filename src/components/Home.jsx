@@ -83,7 +83,7 @@ const Home = () => {
                         height: '100%',
                         borderRadius: '35px', 
                         boxShadow: '0px 6px 12px rgba(0, 0, 0, 0.15)', 
-                        border: '8px solid #1E3A8A',  // Updated border color
+                        border: '8px solid #1E3A8A',  
                         background: 'linear-gradient(white, white) padding-box, linear-gradient(45deg, #1E3A8A, #F9A8D4, #34D399, #E11D48) border-box', 
                     }}
                     >
@@ -102,7 +102,7 @@ const Home = () => {
                       transform="translateX(-50%)"
                       fontFamily="'Faster One', cursive"
                       fontSize="14px"
-                      color="#1E3A8A" // Ensure a visible color
+                      color="#1E3A8A" 
                       whiteSpace="nowrap"
                     >
                       Charlie Harvey
@@ -127,8 +127,8 @@ const Home = () => {
                         color: '#333333',
                         padding: '1rem',
                         backgroundColor: '#F9FAFB',
-                        border: '8px solid #1E3A8A', // Updated border color for back
-                        background: 'linear-gradient(white, white) padding-box, linear-gradient(45deg, #1E3A8A, #F9A8D4, #34D399, #E11D48) border-box', // Fancy holographic gradient for the back
+                        border: '8px solid #1E3A8A', 
+                        background: 'linear-gradient(white, white) padding-box, linear-gradient(45deg, #1E3A8A, #F9A8D4, #34D399, #E11D48) border-box', 
                     }}
                     >
                     <Text fontFamily="'Righteous', cursive" textAlign="center" mb={2} fontWeight="bold">
