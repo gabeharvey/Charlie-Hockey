@@ -56,11 +56,11 @@ const Navbar = ({ scrollToSection, refs }) => {
         </Heading>
         <Spacer />
         <Flex display={['none', 'none', 'flex']} fontFamily="'Righteous', cursive" fontSize="lg" color="#F9FAFB">
-          <Link mx={4} onClick={() => scrollToSection(refs.aboutRef)}>Player Bio</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.projectsRef)}>Hockey Film</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.myExperienceRef)}>Cross Country and Track & Field</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.myEducationRef)}>Academics</Link>
-          <Link mx={4} onClick={() => scrollToSection(refs.contactRef)}>Faith</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.playerBioRef)}>Player Bio</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.hockeyFilmRef)}>Hockey Film</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.homeRef)}>Cross Country and Track & Field</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.academicsRef)}>Academics</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.faithRef)}>Faith</Link>
         </Flex>
 
         <IconButton
@@ -131,19 +131,19 @@ const Navbar = ({ scrollToSection, refs }) => {
             </Flex>
             <Divider borderColor="#F9FAFB" />
             <Flex direction="column" alignItems="flex-start" h="80%" ml="20px" mt="20px">
-              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.aboutRef); onClose(); }} fontFamily="'Righteous', cursive">
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.playerBioRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Player Bio
               </Link>
-              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.projectsRef); onClose(); }} fontFamily="'Righteous', cursive">
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.hockeyFilmRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Hockey Film
               </Link>
-              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.myExperienceRef); onClose(); }} fontFamily="'Righteous', cursive">
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.homeRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Cross Country and Track & Field
               </Link>
-              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.myEducationRef); onClose(); }} fontFamily="'Righteous', cursive">
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.academicsRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Academics
               </Link>
-              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.contactRef); onClose(); }} fontFamily="'Righteous', cursive">
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.faithRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Faith
               </Link>
             </Flex>
