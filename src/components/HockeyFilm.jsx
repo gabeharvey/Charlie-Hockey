@@ -26,7 +26,6 @@ const HockeyFilm = () => {
       videoUrl: 'hockey-film-6.MOV',
       description: 'Charlie Harvey - Defensive Tactics in Game',
     },
-    
   ];
 
   return (
