@@ -7,11 +7,13 @@ import PlayerBio from './components/PlayerBio';
 import HockeyFilm from './components/HockeyFilm';
 import Academics from './components/Academics';
 import Faith from './components/Faith';
+import CrossCountryAndTrackAndField from './components/CrossCountryAndTrackAndField';
 
 function App() {
   const playerBioRef = useRef(null);
   const hockeyFilmRef = useRef(null); 
   const homeRef = useRef(null); 
+  const crossCountryAndTrackAndFieldRef = useRef(null);
   const academicsRef = useRef(null); 
   const faithRef = useRef(null); 
 
@@ -27,7 +29,7 @@ function App() {
     <div>
       <Navbar 
         scrollToSection={scrollToSection} 
-        refs={{ playerBioRef, hockeyFilmRef, homeRef, academicsRef, faithRef }} 
+        refs={{ playerBioRef, hockeyFilmRef, homeRef, crossCountryAndTrackAndFieldRef, academicsRef, faithRef }} 
       />
       <div ref={playerBioRef}>
         <PlayerBio />
@@ -37,6 +39,9 @@ function App() {
       </div>
       <div ref={homeRef}>
         <Home />
+      </div>
+      <div ref={crossCountryAndTrackAndFieldRef}>
+        <CrossCountryAndTrackAndField />
       </div>
       <div ref={academicsRef}>
         <Academics />
