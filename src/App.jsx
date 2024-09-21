@@ -4,14 +4,12 @@ import Home from './components/Home';
 import Navbar from './components/Navbar';
 import Footer from './components/Footer';
 import PlayerBio from './components/PlayerBio';
+import HockeyFilm from './components/HockeyFilm';
 
 function App() {
   const playerBioRef = useRef(null);
+  const hockeyFilmRef = useRef(null); 
   const homeRef = useRef(null); 
-  const myExperienceRef = useRef(null); 
-  const myEducationRef = useRef(null); 
-  const resumeRef = useRef(null); 
-  const contactRef = useRef(null);
 
   const scrollToSection = (sectionRef) => {
     if (sectionRef && sectionRef.current) {
@@ -25,10 +23,13 @@ function App() {
     <div>
       <Navbar 
         scrollToSection={scrollToSection} 
-        refs={{ playerBioRef, homeRef, myExperienceRef, myEducationRef, contactRef, resumeRef }} 
+        refs={{ playerBioRef, hockeyFilmRef, homeRef }} 
       />
       <div ref={playerBioRef}>
         <PlayerBio />
+      </div>
+      <div ref={hockeyFilmRef}>
+        <HockeyFilm />
       </div>
       <div ref={homeRef}>
         <Home />
