@@ -62,6 +62,7 @@ const Navbar = ({ scrollToSection, refs }) => {
           <Link mx={4} onClick={() => scrollToSection(refs.crossCountryAndTrackAndFieldRef)}>Cross Country and Track & Field</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.academicsRef)}>Academics</Link>
           <Link mx={4} onClick={() => scrollToSection(refs.faithRef)}>Faith</Link>
+          <Link mx={4} onClick={() => scrollToSection(refs.contactRef)}>Contact</Link>
         </Flex>
 
         <IconButton
@@ -149,6 +150,9 @@ const Navbar = ({ scrollToSection, refs }) => {
               </Link>
               <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.faithRef); onClose(); }} fontFamily="'Righteous', cursive">
                 Faith
+              </Link>
+              <Link fontSize="lg" my={2} onClick={() => { scrollToSection(refs.contactRef); onClose(); }} fontFamily="'Righteous', cursive">
+                Contact
               </Link>
             </Flex>
           </Box>
