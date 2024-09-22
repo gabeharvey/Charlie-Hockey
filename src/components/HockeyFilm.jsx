@@ -4,27 +4,39 @@ const HockeyFilm = () => {
   const videoData = [
     {
       videoUrl: 'hockey-film-1.mov', 
-      description: 'Charlie Harvey - Game Highlights 1',
+      description: 'Harvey #22 Good F2 Pickup',
     },
     {
       videoUrl: 'hockey-film-2.mov',
-      description: 'Charlie Harvey - Game Highlights 2',
+      description: 'Harvey #22 Shoulder Check and Quick Up',
     },
     {
       videoUrl: 'hockey-film-3.mov',
-      description: 'Charlie Harvey - Skills Training Session',
+      description: 'Harvey #22 Good Backcheck',
     },
     {
       videoUrl: 'hockey-film-4.mov',
-      description: 'Charlie Harvey - Defensive Tactics in Game',
+      description: 'Harvey #22 Physical Defensive Play',
     },
     {
       videoUrl: 'hockey-film-5.mov',
-      description: 'Charlie Harvey - Defensive Tactics in Game',
+      description: 'Harvey White Jersey/Yellow Helmet Physical Defensive Play',
     },
     {
       videoUrl: 'hockey-film-6.MOV',
-      description: 'Charlie Harvey - Defensive Tactics in Game',
+      description: 'Harvey Dark Jersey/Yellow Helmet Birmingham, AL Practice Good Shot',
+    },
+    {
+      videoUrl: 'hockey-film-7.mov',
+      description: 'Good Zone Entry',
+    },
+    {
+      videoUrl: 'hockey-film-8.mov',
+      description: 'Good Puck Movement During Power Play',
+    },
+    {
+      videoUrl: 'hockey-film-9.mov',
+      description: 'Primary Assist',
     },
   ];
 
@@ -35,7 +47,7 @@ const HockeyFilm = () => {
       <Container maxW="container.lg" mt="50px">
         <VStack spacing={8} textAlign="center" py={1}>
           <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB">Hockey Film</Heading>
-          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Watch game highlights and training videos)</Heading>
+          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click to watch Hockey Film)</Heading>
         </VStack>
         <SimpleGrid columns={[1, 2, 2]} spacing={10} width="100%" justifyItems="center">
           {videoData.map((video, index) => (

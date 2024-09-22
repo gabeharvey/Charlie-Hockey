@@ -101,8 +101,8 @@ const Home = () => {
                       left="50%"
                       transform="translateX(-50%)"
                       fontFamily="'Faster One', cursive"
-                      fontSize="14px"
-                      color="#1E3A8A" 
+                      fontSize="16px"
+                      color="red" 
                       whiteSpace="nowrap"
                     >
                       Charlie Harvey

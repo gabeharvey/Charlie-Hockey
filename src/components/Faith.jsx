@@ -109,20 +109,19 @@ const Faith = () => {
                 }}
               >
                 <Text fontFamily="'Righteous', cursive" textAlign="center" mb={2} fontWeight="bold">
-                  Key Aspects of Faith
+                  Catholic Faith
                 </Text>
                 <UnorderedList textAlign="left">
-                  <ListItem>Trust in a higher power</ListItem>
-                  <ListItem>Practice of compassion and love</ListItem>
-                  <ListItem>Belief in the unseen</ListItem>
-                  <ListItem>Commitment to spiritual growth</ListItem>
+                  <ListItem>Active Member Prince of Peace Catholic Church</ListItem>
+                  <ListItem>K-5 - 5th Grade Prince of Peace Catholic School</ListItem>
+                  <ListItem>Vacation Bible School Summer Volunteer</ListItem>
                 </UnorderedList>
               </animated.div>
             </animated.div>
           </Box>
         </SimpleGrid>
       </Container>
-      <Box mb={2} width="100%" maxWidth="400px" display="flex" justifyContent="center" alignItems="center">
+        <Box mb={2} width="100%" maxWidth="400px" display="flex" justifyContent="center" alignItems="center">
       </Box>
     </Box>
   );

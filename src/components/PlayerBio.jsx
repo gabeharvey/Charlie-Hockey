@@ -16,7 +16,7 @@ const PlayerBio = () => {
           alt="Player Image"
           borderRadius="md"
           objectFit="cover" 
-          width="70%" 
+          width="50%" 
           height="auto"
           style={{
             display: 'block',
@@ -91,7 +91,7 @@ const PlayerBio = () => {
               color="#1E3A8A"
               mb={4}
             >
-              <strong>Position:</strong> Defenseman
+              <strong>Position:</strong> Defenseman - Left Handed
             </Text>
             <Text
               fontFamily="'Righteous', cursive"
