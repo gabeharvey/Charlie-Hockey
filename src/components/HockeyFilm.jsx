@@ -4,23 +4,19 @@ const HockeyFilm = () => {
   const videoData = [
     {
       videoUrl: 'hockey-film-13.mov', 
-      description: 'Harvey #22 Good F2 Pickup',
+      description: 'Good F2 Pickup',
     },
     {
       videoUrl: 'hockey-film-10.mov',
-      description: 'Harvey #22 Good Backcheck',
+      description: 'Good Backcheck',
     },
     {
       videoUrl: 'hockey-film-14.mov',
-      description: 'Harvey #22 Physical Defensive Play',
+      description: 'Physical Defensive Play',
     },
     {
-      videoUrl: 'hockey-film-5.mov',
-      description: 'Harvey White Jersey/Yellow Helmet Physical Defensive Play',
-    },
-    {
-      videoUrl: 'hockey-film-6.MOV',
-      description: 'Harvey Dark Jersey/Yellow Helmet Birmingham, AL Practice Good Shot',
+      videoUrl: 'hockey-film-19.mov',
+      description: 'Physical Defensive Play 2',
     },
     {
       videoUrl: 'hockey-film-17.mov',
@@ -46,8 +42,9 @@ const HockeyFilm = () => {
       </Box>
       <Container maxW="container.lg" mt="50px">
         <VStack spacing={8} textAlign="center" py={1}>
-          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB">Hockey Film</Heading>
-          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click to watch Hockey Film)</Heading>
+          <Heading mb={2} fontFamily="'Righteous', cursive" color="#F9FAFB">Hockey Film</Heading>
+          <Heading mb={2} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">Charlie Harvey #22</Heading>
+          <Heading mb={2} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click to watch Hockey Film)</Heading>
         </VStack>
         <SimpleGrid columns={[1, 2, 2]} spacing={10} width="100%" justifyItems="center">
           {videoData.map((video, index) => (
