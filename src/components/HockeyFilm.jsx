@@ -3,7 +3,7 @@ import { Box, Heading, Container, VStack, SimpleGrid } from '@chakra-ui/react';
 const HockeyFilm = () => {
   const videoData = [
     {
-      videoUrl: 'hockey-film-12.mov', 
+      videoUrl: 'hockey-film-13.mov', 
       description: 'Harvey #22 Good F2 Pickup',
     },
     {
@@ -11,7 +11,7 @@ const HockeyFilm = () => {
       description: 'Harvey #22 Good Backcheck',
     },
     {
-      videoUrl: 'hockey-film-11.mov',
+      videoUrl: 'hockey-film-14.mov',
       description: 'Harvey #22 Physical Defensive Play',
     },
     {
@@ -23,16 +23,20 @@ const HockeyFilm = () => {
       description: 'Harvey Dark Jersey/Yellow Helmet Birmingham, AL Practice Good Shot',
     },
     {
-      videoUrl: 'hockey-film-7.mov',
+      videoUrl: 'hockey-film-17.mov',
       description: 'Good Zone Entry',
     },
     {
-      videoUrl: 'hockey-film-8.mov',
+      videoUrl: 'hockey-film-16.mov',
       description: 'Good Puck Movement During Power Play',
     },
     {
-      videoUrl: 'hockey-film-9.mov',
+      videoUrl: 'hockey-film-15.mov',
       description: 'Primary Assist',
+    },
+    {
+      videoUrl: 'hockey-film-18.mov',
+      description: 'Practice in Birmingham-Good Shot',
     },
   ];
 
