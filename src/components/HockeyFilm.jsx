@@ -3,7 +3,7 @@ import { Box, Heading, Container, VStack, SimpleGrid } from '@chakra-ui/react';
 const HockeyFilm = () => {
   const videoData = [
     {
-      videoUrl: 'hockey-film-13.mov', 
+      videoUrl: 'hockey-film-13.mov',
       description: 'Good F2 Pickup',
     },
     {
@@ -38,8 +38,7 @@ const HockeyFilm = () => {
 
   return (
     <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4}>
-      <Box textAlign="center" mb={10}>
-      </Box>
+      <Box textAlign="center" mb={10}></Box>
       <Container maxW="container.lg" mt="50px">
         <VStack spacing={8} textAlign="center" py={1}>
           <Heading mb={2} fontFamily="'Righteous', cursive" color="#F9FAFB">Hockey Film</Heading>
@@ -67,6 +66,9 @@ const HockeyFilm = () => {
                 border="8px solid white"
                 boxShadow="0px 6px 12px rgba(0, 0, 0, 0.15)"
                 background="linear-gradient(white, white) padding-box, linear-gradient(45deg, white, #F9A8D4, #34D399, #E11D48) border-box"
+                backgroundImage="url('/video-film.png')" 
+                backgroundSize="cover"
+                backgroundPosition="center"
               >
                 {/* Video Container */}
                 <video
@@ -76,7 +78,7 @@ const HockeyFilm = () => {
                     width: '100%',
                     height: '100%',
                     objectFit: 'cover',
-                    borderRadius: '25px'
+                    borderRadius: '25px',
                   }}
                 />
               </Box>
