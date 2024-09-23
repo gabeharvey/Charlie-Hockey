@@ -7,7 +7,7 @@ const HockeyFilm = () => {
       description: 'Good F2 Pickup',
     },
     {
-      videoUrl: 'hockey-film-10.mov',
+      videoUrl: 'hockey-film-20.mov',
       description: 'Good Backcheck',
     },
     {
