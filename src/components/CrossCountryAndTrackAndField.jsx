@@ -130,7 +130,7 @@ const CrossCountryAndTrackAndField = () => {
                   <Text fontFamily="'Righteous', cursive" textAlign="center" mb={2} fontWeight="bold">
                     {card.title}
                   </Text>
-                  <UnorderedList textAlign="left">
+                  <UnorderedList textAlign="left"  fontFamily="'Righteous', cursive">
                     {card.details.map((detail, i) => (
                       <ListItem key={i}>{detail}</ListItem>
                     ))}

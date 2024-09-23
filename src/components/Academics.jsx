@@ -94,7 +94,7 @@ const Academics = () => {
                   background: 'linear-gradient(white, white) padding-box, linear-gradient(45deg, #1E3A8A, #F9A8D4, #34D399, #E11D48) border-box', 
                 }}
               >
-                <UnorderedList styleType="disc" fontFamily="'Righteous', cursive" textAlign="center" mb={2}>
+                <UnorderedList styleType="disc" fontFamily="'Righteous', cursive" textAlign="left" mb={2}>
                   {cardData.backText.map((text, idx) => (
                     <ListItem key={idx}>{text}</ListItem>
                   ))}

@@ -111,7 +111,7 @@ const Faith = () => {
                 <Text fontFamily="'Righteous', cursive" textAlign="center" mb={2} fontWeight="bold">
                   Catholic Faith
                 </Text>
-                <UnorderedList textAlign="left">
+                <UnorderedList textAlign="left" fontFamily="'Righteous', cursive">
                   <ListItem>Active Member Prince of Peace Catholic Church</ListItem>
                   <ListItem>K-5 - 5th Grade Prince of Peace Catholic School</ListItem>
                   <ListItem>Vacation Bible School Summer Volunteer</ListItem>

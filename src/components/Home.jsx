@@ -38,7 +38,7 @@ const Home = () => {
     },
     {
       frontImage: 'action-4.png',
-      backText: 'Selected as defenseman for Southern Amateur Hockey Association Training Camp at Miami University in Oxford, Ohio.',
+      backText: 'Selected as defenseman to represent USA Hockey Southeastern District at hockey camp hosted by Miami University, Ohio Summer 2024.',
     }
   ];
 
