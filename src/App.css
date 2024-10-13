@@ -1,5 +1,6 @@
 @import url("https://fonts.googleapis.com/css2?family=Righteous&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Faster+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Tilt+Prism&display=swap");
 
 :root {
   font-family: 'Righteous', cursive;
@@ -73,4 +74,11 @@
 
 #footer a:hover {
   color: #6B7280;
+}
+
+.tilt-prism-footer {
+  font-family: 'Tilt Prism', sans-serif;
+  font-size: 24px;
+  color: white;
+  font-weight: bold;
 }

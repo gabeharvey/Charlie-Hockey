@@ -12,6 +12,7 @@ const Footer = () => {
             </Link>
           </Stack>
           <Text>&copy; {new Date().getFullYear()} Charlie Harvey. All rights reserved.</Text>
+          <Text><span className="tilt-prism-footer">Athlete X Elite</span></Text>
         </Stack>
       </Container>
     </Box>
