@@ -18,7 +18,7 @@ const Footer = () => {
               isExternal 
               className="tilt-prism-footer"
             >
-              Athlete X Elite | 1/1
+              Athlete X Elite
             </Link>
           </Text>
         </Stack>
