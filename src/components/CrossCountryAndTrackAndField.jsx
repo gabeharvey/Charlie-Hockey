@@ -28,7 +28,7 @@ const CrossCountryAndTrackAndField = () => {
     {
       frontImg: '/track-3.png',
       title: 'Cross Country',
-      details: ['5K 18:01.81'],
+      details: ['5K 17:39'],
     },
     {
       frontImg: '/track-4.png',
