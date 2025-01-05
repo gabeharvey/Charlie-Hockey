@@ -3,16 +3,16 @@ import { Box, Heading, Container, VStack, SimpleGrid } from '@chakra-ui/react';
 const HockeyFilm = () => {
   const videoData = [
     {
-      videoUrl: 'hockey-film-13.mov',
-      description: 'Good F2 Pickup',
+      videoUrl: 'charlie-vid-1.mov',
+      description: 'Video 1',
     },
     {
-      videoUrl: 'hockey-film-20.mov',
-      description: 'Good Backcheck',
+      videoUrl: 'charlie-vid-2.mov',
+      description: 'Video 2',
     },
     {
-      videoUrl: 'hockey-film-14.mov',
-      description: 'Physical Defensive Play',
+      videoUrl: 'charlie-vid-3.mov',
+      description: 'Video 3',
     },
     // {
     //   videoUrl: 'hockey-film-19.mov',
