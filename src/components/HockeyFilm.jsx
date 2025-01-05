@@ -14,26 +14,26 @@ const HockeyFilm = () => {
       videoUrl: 'hockey-film-14.mov',
       description: 'Physical Defensive Play',
     },
-    {
-      videoUrl: 'hockey-film-19.mov',
-      description: 'Physical Defensive Play 2',
-    },
-    {
-      videoUrl: 'hockey-film-17.mov',
-      description: 'Good Zone Entry',
-    },
-    {
-      videoUrl: 'hockey-film-16.mov',
-      description: 'Good Puck Movement During Power Play',
-    },
-    {
-      videoUrl: 'hockey-film-15.mov',
-      description: 'Primary Assist',
-    },
-    {
-      videoUrl: 'hockey-film-18.mov',
-      description: 'Practice in Birmingham-Good Shot',
-    },
+    // {
+    //   videoUrl: 'hockey-film-19.mov',
+    //   description: 'Physical Defensive Play 2',
+    // },
+    // {
+    //   videoUrl: 'hockey-film-17.mov',
+    //   description: 'Good Zone Entry',
+    // },
+    // {
+    //   videoUrl: 'hockey-film-16.mov',
+    //   description: 'Good Puck Movement During Power Play',
+    // },
+    // {
+    //   videoUrl: 'hockey-film-15.mov',
+    //   description: 'Primary Assist',
+    // },
+    // {
+    //   videoUrl: 'hockey-film-18.mov',
+    //   description: 'Practice in Birmingham-Good Shot',
+    // },
   ];
 
   return (
