@@ -17,7 +17,7 @@ const Academics = () => {
   const cardData = {
     frontImage: 'academic-2.png',
     backText: [
-      'A-B Honor Roll',
+      'A/B Honor Roll',
       'National Junior Honor Society',
       'Bumpus Middle School "Best All-Around" (2 years in a row)',
     ],
