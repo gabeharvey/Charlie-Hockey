@@ -41,7 +41,7 @@ const Contact = () => {
       <Container maxW="container.lg" mt="50px">
         <VStack spacing={8} textAlign="center" py={1}>
           <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB">Contact Us</Heading>
-          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">We'd love to hear from you</Heading>
+          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">We'd Love to Hear from You</Heading>
         </VStack>
 
         <Box
