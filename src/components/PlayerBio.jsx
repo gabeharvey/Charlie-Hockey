@@ -75,7 +75,7 @@ const PlayerBio = () => {
               color="#1E3A8A"
               mb={4}
             >
-              <strong>Height:</strong> 5' 4''
+              <strong>Height:</strong> 5' 5''
             </Text>
             <Text
               fontFamily="'Righteous', cursive"
@@ -83,7 +83,7 @@ const PlayerBio = () => {
               color="#1E3A8A"
               mb={4}
             >
-              <strong>Weight:</strong> 128lbs
+              <strong>Weight:</strong> 130lbs
             </Text>
             <Text
               fontFamily="'Righteous', cursive"
