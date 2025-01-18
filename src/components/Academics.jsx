@@ -29,7 +29,7 @@ const Academics = () => {
     <Box bg="#6B7280" minH="80vh" display="flex" flexDirection="column" alignItems="center" px={4} mt="100px">
       <Box textAlign="center" mb={10}>
         <Heading fontFamily="'Righteous', cursive" color="#F9FAFB" mb={10}>Academic Achievements</Heading>
-        <Text fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click on card to learn more)</Text>
+        <Text fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click on a card to learn more)</Text>
       </Box>
       <Container maxW="container.lg" mt="10px">
         <Center>
