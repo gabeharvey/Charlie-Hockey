@@ -51,7 +51,7 @@ const Home = () => {
       <Container maxW="container.lg" mt="50px">
         <VStack spacing={8} textAlign="center" py={1}>
           <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB">Player Cards</Heading>
-          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click on a card to learn more)</Heading>
+          <Heading mb={4} fontFamily="'Righteous', cursive" color="#F9FAFB" fontSize="lg">(Click on cards to learn more)</Heading>
         </VStack>
         <SimpleGrid columns={[1, 2, 2]} spacing={10} width="100%" justifyItems="center">
             {cardData.map((card, index) => (
