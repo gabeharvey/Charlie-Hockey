@@ -54,7 +54,7 @@ const Contact = () => {
           <form onSubmit={handleSubmit} style={{ width: '100%' }}>
             <VStack spacing={6} align="stretch">
               <FormControl id="name" isRequired>
-                <FormLabel fontFamily="'Righteous', cursive" color="#1E3A8A">Name</FormLabel>
+                <FormLabel fontFamily="'Righteous', cursive" color="#1E3A8A">Your Name</FormLabel>
                 <Input
                   name="name"
                   value={formData.name}
